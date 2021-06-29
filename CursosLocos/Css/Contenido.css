@@ -1,0 +1,14 @@
+#ContenidoCursos 
+{
+    display: flex;
+    height: 200px;
+    background-color: turquoise;
+    justify-content: center;
+    margin-top: 30px;
+}
+#BtCursos 
+{
+    width: 200px;
+    height: 60px;
+    margin-top: 60px;
+}

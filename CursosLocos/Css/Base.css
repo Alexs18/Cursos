@@ -1,0 +1,53 @@
+#Imagenes 
+{
+    width: 100%;
+    background-color: blue;
+    height: 350px;
+     background-image: url(../Img/14.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+#Menu
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: linear-gradient(rgb(29, 156, 230), black, rgb(17, 236, 36));
+    display: flex;
+    justify-content: space-around;
+}
+#Menu img 
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.Boton
+{
+    width: 100px;
+    height: 45px;
+    margin-top: 40px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.Datos
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p
+{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#Buscador 
+{
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 300px;
+    height: 60px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Base.css">
+    <link rel="stylesheet" href="../Css/Pie.css">
+    <script src="../Js/Cursos.js"></script>
+    <link rel="stylesheet" href="../Css/Contenido.css">
+    <title>Cursos Locos</title>
+</head>
+<body>
+    <header>
+        <div id="Contenido">
+            <div id="Imagenes">
+            </div>
+            <div id="Menu">
+                <div class="Datos">
+                    <img src="../Img/DiseñoLogo.gif" alt="">
+                    <p>Diseños Locos</p>
+                </div>
+       
+                <input type="search" placeholder="Busque Aqui su Curso" id="Buscador">
+                <div id="Botones">
+                    <input type="button" value="Ingresar" class="Boton">
+                    <input type="button" value="Registrarse" class="Boton">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="ContenidoCursos">
+        <input type="button" value="Cursos" id="BtCursos">
+        
+    </div>
+    <footer>
+        <div id="Pie">
+            <p>Derecho reservado por los autores </p>
+        </div>
+    </footer>
+    <script>
+        const Click = document.getElementById('BtCursos');
+        const ContenidoCursos = document.getElementById('ContenidoCursos');
+        Click.addEventListener('click', ()=>
+        {   
+            const CursosData = ['Adobe', 'After Effect', 'Publicidad', 'Diseño']
+            const CrearCursos = document.createElement('div');
+            alert(`Los cursos ${CursosData} estarán disponibles muy pronto`)
+            
+        })
+    </script>
+    
+</body>
+</html>
